@@ -2,7 +2,7 @@
 
 // Get the Button elements and add eventlisteners to them
 
-document.addEventListener("DOMContentLoaded", function () { 
+document.addEventListener("DOMContentLoaded", function() { 
     let buttons = document.getElementsByTagName("button");
     for (let button of buttons) {
         button.addEventListener("click", function() {
